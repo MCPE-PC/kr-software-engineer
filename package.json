@@ -1,0 +1,50 @@
+{
+	"name": "kr-software-engineer",
+	"version": "0.0.1",
+	"description": "Scans for accredited certificate storages and the certificates in them",
+	"keywords": [
+		"kosa",
+		"sw.or.kr",
+		"career.sw.or.kr",
+		"한국소프트웨어산업협회",
+		"소프트웨어기술자",
+		"경력관리시스템"
+	],
+	"homepage": "https://github.com/MCPE-PC/kr-software-engineer#readme",
+	"bugs": {
+		"url": "https://github.com/MCPE-PC/kr-software-engineer/issues",
+		"email": "me@mcpepc.com"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Jaehyeon Park",
+		"email": "me@mcpepc.com",
+		"url": "https://www.mcpepc.com/"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://sponsor.mcpepc.me/"
+	},
+	"files": [
+		"dist/**/*"
+	],
+	"main": "dist/index.js",
+	"repository": "github:MCPE-PC/kr-software-engineer",
+	"scripts": {
+		"build": "tsc",
+		"test": "xo"
+	},
+	"devDependencies": {
+		"@tsconfig/node22": "^22.0.0",
+		"@types/node": "^22.4.0",
+		"typescript": "^5.5.4",
+		"xo": "^0.59.3"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"puppeteer": "^23.1.0"
+	}
+}
